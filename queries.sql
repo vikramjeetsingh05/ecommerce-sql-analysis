@@ -3,11 +3,12 @@
 -- 1. Monthly Revenue Trend
 
 SELECT
-    DATE_TRUNC('month', order_date) AS month,
+    FORMAT(order_date, 'yyyy-MM') AS month,
     SUM(total_amount) AS monthly_revenue
 FROM orders
-GROUP BY month
+GROUP BY FORMAT(order_date, 'yyyy-MM')
 ORDER BY month;
+
 
 -- 2. Top Customers by Revenue
 -- 3. Revenue by Category
