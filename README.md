@@ -5,7 +5,7 @@ This project analyzes e-commerce transaction data using SQL Server to answer key
 
 ## Dataset
 - Source: Simulated e-commerce sales dataset
-- Records: ~34,000 transactions
+- Records: ~34,501 transactions
 - Format: CSV imported into SQL Server
 
 ## Tools Used
@@ -32,6 +32,18 @@ All SQL queries are available in `queries.sql`.
 Revenue started at a relatively low level in September 2023 (₹151,136) and increased sharply in October 2023 (₹262,503), indicating strong early growth. From November 2023 to August 2025, revenue remained largely stable within the range of ₹210,000 to ₹265,000, suggesting consistent business performance over this period.
 
 The highest revenue was recorded in December 2024 (₹278,154), indicating strong year-end sales. In contrast, September 2025 showed a significant decline (₹91,848), which may be due to incomplete data or reduced customer activity.
+
+### 2. Top Customers by Revenue
+
+The highest-revenue customer (C16655) generated ₹13,885, followed by C13565 and C15379 with revenues above ₹11,000.
+
+After the top three customers, revenue declines gradually from approximately ₹7,400 to ₹6,400 across ranks 4 to 10, indicating a smooth and balanced distribution.
+
+The combined revenue of the top 10 customers is approximately ₹86,630, which represents only about 1.5% of total revenue (₹5.86M). This suggests that the business is not dependent on a small group of high-value customers.
+
+Overall, revenue is well distributed across a large customer base, indicating low customer concentration risk and stable demand.
+
+
 
 ## Future Improvements
 - Add interactive dashboards using Power BI
