@@ -5,7 +5,7 @@ This project analyzes e-commerce transaction data using SQL Server to answer key
 
 ## Dataset
 - Source: Simulated e-commerce sales dataset
-- Records: ~34,501 transactions
+- Records: ~34,500 transactions
 - Format: CSV imported into SQL Server
 
 ## Tools Used
