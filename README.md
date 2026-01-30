@@ -44,6 +44,31 @@ The combined revenue of the top 10 customers is approximately ₹86,630, which r
 Overall, revenue is well distributed across a large customer base, indicating low customer concentration risk and stable demand.
 
 
+### 3. Revenue by Category
+
+Electronics is the highest revenue-generating category with ₹3.32M, contributing approximately 56.6% of total revenue. Home and Sports follow with ₹1.08M and ₹0.63M respectively, while Grocery generates the lowest revenue at ₹82K.
+
+This indicates strong dependence on Electronics, while Home and Sports present opportunities for revenue diversification and growth.
+
+### 4. Profit by Category
+
+Electronics dominates profitability with ₹5.07M, accounting for approximately 67% of total profit. Home and Sports contribute ₹1.47M and ₹0.62M respectively, while Fashion provides moderate profit.
+
+Grocery is the only loss-making category (-₹800), indicating low margins or high operational costs that require optimization.
+
+### 5. Payment Method Distribution
+
+Card-based payments dominate transactions, accounting for approximately 60% of total usage, with credit cards contributing 35.3% and debit cards 24.7%.
+
+COD and UPI show similar adoption at around 12%, while wallet payments are the least used at 6%. This indicates strong reliance on card infrastructure and moderate adoption of digital payment method.
+
+### 6. Repeat vs One-time Customers
+
+Out of 7,903 unique customers, 7,428 (approximately 94%) are repeat customers, while only 475 (6%) are one-time buyers.
+
+This reflects strong customer retention and satisfaction, contributing to stable revenue. However, limited new customer acquisition may restrict long-term growth.
+
+
 
 ## Future Improvements
 - Add interactive dashboards using Power BI
