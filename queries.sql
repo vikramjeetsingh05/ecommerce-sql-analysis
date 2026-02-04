@@ -88,6 +88,53 @@ GROUP BY
 
 
 -- 7. Return Rate Analysis
+
+SELECT
+    category,
+    COUNT(CASE WHEN returned = 'Yes' THEN 1 END) AS returned_orders,
+    COUNT(*) AS total_orders,
+    ROUND(
+        COUNT(CASE WHEN returned = 'Yes' THEN 1 END) * 100.0 / COUNT(*),
+        2
+    ) AS return_percentage
+FROM orders
+GROUP BY category
+ORDER BY return_percentage DESC;
+
+
 -- 8. Delivery Performance
+
+SELECT
+    region,
+    category,
+    ROUND(AVG(delivery_time_days), 2) AS avg_delivery_time,
+    MAX(delivery_time_days) AS max_delivery_time,
+    MIN(delivery_time_days) AS min_delivery_time
+FROM orders
+GROUP BY region, category
+ORDER BY avg_delivery_time ASC;
+
 -- 9. Profit by Region
+
+SELECT
+    region,
+    SUM(total_amount * profit_margin / 100.0) AS total_profit,
+    ROUND(
+        SUM(total_amount * profit_margin / 100.0) / SUM(total_amount) * 100,
+        2
+    ) AS avg_profit_margin
+FROM orders
+GROUP BY region
+ORDER BY total_profit DESC;
+
+
 -- 10. Shipping Cost by Region
+
+SELECT
+    region,
+    SUM(shipping_cost) AS total_shipping_cost,
+    ROUND(AVG(shipping_cost), 2) AS avg_shipping_cost
+FROM orders
+GROUP BY region
+ORDER BY total_shipping_cost DESC;
+
