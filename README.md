@@ -68,6 +68,40 @@ Out of 7,903 unique customers, 7,428 (approximately 94%) are repeat customers, w
 
 This reflects strong customer retention and satisfaction, contributing to stable revenue. However, limited new customer acquisition may restrict long-term growth.
 
+### 7. Return Rate Analysis
+
+Return rates remain below 10% across all categories, indicating strong overall product quality and customer satisfaction.
+
+Fashion shows the highest return rate at 8.28%, followed by Electronics (7.30%) and Home (5.65%), which may be due to size, fit, or expectation mismatch in online purchases.
+
+Grocery has the lowest return rate at 1.31%, reflecting high reliability and low dissatisfaction in essential goods.
+
+Overall, returns are well controlled, with no category showing excessive return behavior.
+
+### 8. Delivery Performance
+
+North region demonstrates the strongest overall delivery performance, with consistently low average delivery times across most categories. Central region follows closely, performing well in several categories but showing moderate variability.
+
+West region exhibits average delivery performance, while East region records the slowest delivery times, with higher average and maximum delivery durations.
+
+This suggests potential logistical inefficiencies in the East region that may require operational improvements.
+
+### 9. Profit by Region
+
+West region generates the highest total profit at approximately ₹1.80M and also shows the strongest average profit margin, indicating high operational efficiency.
+
+North and South follow with ₹1.58M and ₹1.50M respectively, while East and Central contribute comparatively lower profits.
+
+Although Central region has the lowest total profit, it shows relatively strong average margins, suggesting potential for revenue growth through volume expansion.
+
+### 10. Shipping Cost by Region
+
+Central region incurs the lowest total shipping cost at ₹34.47K, indicating efficient logistics management. South region has the highest shipping cost at ₹46.73K, followed closely by North and East.
+
+All regions show similar average shipping costs of approximately ₹6 per order, suggesting consistent pricing and cost structure across locations.
+
+Overall, shipping expenses remain stable across regions, with no major cost imbalance.
+
 
 
 ## Future Improvements
