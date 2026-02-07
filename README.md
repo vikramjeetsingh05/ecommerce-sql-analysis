@@ -1,29 +1,42 @@
 # E-commerce SQL Analysis
 
 ## Overview
-This project analyzes e-commerce transaction data using SQL Server to answer key business questions related to revenue, customers, and operations.
+This project analyzes e-commerce transaction data using SQL Server to extract actionable business insights related to revenue trends, customer behavior, profitability, and operational performance.
 
 ## Dataset
 - Source: Simulated e-commerce sales dataset
 - Records: ~34,500 transactions
 - Format: CSV imported into SQL Server
 
-## Tools Used
+## Tools & Technologies
 - SQL Server
 - SQL Server Management Studio (SSMS)
-- GitHub
+- Microsoft Excel (for data validation)
+- Git & GitHub
 
 ## Database Schema
 See `schema.sql` for table structure.
+
+## How to Run
+1. Import `orders.csv` into SQL Server.
+2. Execute `schema.sql`.
+3. Run queries from `queries.sql`.
+4. Review results in README.
 
 ## Business Questions
 1. How does revenue change over time?
 2. Who are the top customers by revenue?
 3. Which product categories generate the most revenue?
 4. How does profit vary by category and region?
+5. How are transactions distributed across payment methods?
+6. What is the proportion of repeat vs one-time customers?
+7. What is the return rate across different product categories?
+8. How does delivery performance vary by region?
+9. Which regions generate the highest profit?
+10. How do shipping costs differ across regions?
 
 ## Analysis
-All SQL queries are available in `queries.sql`.
+The analysis was conducted using structured SQL queries to examine revenue trends, customer behavior, profitability, operational efficiency, and logistics performance. All queries are documented in `queries.sql`.
 
 ## Key Insights
 
@@ -101,7 +114,6 @@ Central region incurs the lowest total shipping cost at ₹34.47K, indicating ef
 All regions show similar average shipping costs of approximately ₹6 per order, suggesting consistent pricing and cost structure across locations.
 
 Overall, shipping expenses remain stable across regions, with no major cost imbalance.
-
 
 
 ## Future Improvements
