@@ -115,9 +115,25 @@ All regions show similar average shipping costs of approximately ₹6 per order,
 
 Overall, shipping expenses remain stable across regions, with no major cost imbalance.
 
+## Visualization Layer (Power BI Dashboard)
+
+The analytical insights from this SQL project have been visualized in a multi-page Power BI dashboard.
+
+🔗 Power BI Repository:
+https://github.com/vikramjeetsingh05/ecommerce-sql-powerbi-analysis
+
+### The dashboard includes:
+
+Executive revenue and profit overview
+Category and regional performance analysis
+Customer repeat behavior analysis
+Return rate breakdown
+Operational metrics (delivery & shipping performance)
 
 ## Future Improvements
-- Add interactive dashboards using Power BI
-- Perform customer segmentation and lifetime value analysis
-- Analyze promotional and seasonal effects in more detail
 
+Customer segmentation (RFM analysis)
+Customer Lifetime Value (CLV) modeling
+Cohort analysis for retention tracking
+Forecasting revenue using time-series modeling
+Deeper profitability decomposition
